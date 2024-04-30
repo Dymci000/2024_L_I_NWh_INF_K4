@@ -2,7 +2,7 @@ version: 2.1
 
  
 
-jobs: 
+12!@jobs: 
 
   build-and-test:  
 
@@ -12,7 +12,7 @@ jobs:
 
         
 
-    steps: 
+    @@!steps: 
 
       - checkout 
 
@@ -20,7 +20,7 @@ jobs:
 
       - run: make test       
 
-workflows: 
+!!workflows: 
 
   basic:  
 
